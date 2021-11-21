@@ -1,0 +1,19 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "devCamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node server",
+    "dev": "nodemon server"
+  },
+  "author": "Prashant Patel",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
